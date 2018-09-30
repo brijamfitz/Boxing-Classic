@@ -1,0 +1,39 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Special Elite', cursive, 'Courier New', Courier, monospace;
+    color: white;
+}
+img {
+    height: 150px;
+    width:  170px;
+    border-radius: 10px;
+}
+.title-section {
+    font-size: 200%;
+    text-align: center;
+}
+.section-title {
+    font-size: 125%;
+}
+.boxer {
+    display: inline-block;
+    border-style: solid;
+    border-width: 3px;
+    background-color: white;
+    cursor: pointer;
+    margin: 10px;
+    color: black;
+}
+.boxer-image {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.boxer-name,
+.boxer-health {
+    text-align: center;
+}
