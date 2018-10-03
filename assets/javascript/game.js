@@ -85,11 +85,13 @@ function renderBoxers(boxerObj, areaRender) {
     if (areaRender === '#boxers-section') {
         $(areaRender).empty();
         // Loop through boxers object and call renderOne function
-            for (var key in boxerObj) {
-                if (boxerObj.hasOwnProperty(key)) {
-                    renderOne(boxerObj[key], areaRender, '');
-                }
+        for (var key in boxerObj) {
+            console.log(key);
+            if (boxerObj.hasOwnProperty(key)) {
+                console.log(boxerObj.hasOwnProperty(key));
+                renderOne(boxerObj[key], areaRender, '');
             }
+        }
     }
 
     // 'selected-boxer' is the div where our selected boxer will render
@@ -250,6 +252,6 @@ $('#punch-button').on('click', function() {
         }
     }
     turnCounter++;
-}
+    }
 });
 })
