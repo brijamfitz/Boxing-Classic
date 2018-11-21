@@ -2,6 +2,8 @@
 
 Play here: [Boxing Classic](https://brijamfitz.github.io/Boxing-Classic/)
 
+![image](assets/images/screenshot-boxing.png)
+
 Welcome to a classic boxing RPG game!
 
 * Choose between Mike Tyson, Muhammad Ali, Joe Frazier, and George Foreman!
@@ -23,4 +25,4 @@ Designed and maintained by Brian Fitzgerald
 
 Email: brianjfitzgerald@gmail.com
 
-&#169; 2018
+Copyright &#169; 2018
