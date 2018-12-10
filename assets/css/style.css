@@ -3,13 +3,21 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     font-family: 'Special Elite', cursive, 'Courier New', Courier, monospace;
     color: white;
+    margin: 20px;
 }
 img {
     height: 150px;
     width:  170px;
     border-radius: 10px;
+}
+button {
+    margin: 10px 10px 10px 0px;
 }
 .title-section {
     font-size: 200%;
@@ -24,7 +32,7 @@ img {
     border-width: 3px;
     background-color: white;
     cursor: pointer;
-    margin: 10px;
+    margin: 20px 20px 20px 0px;
     color: black;
 }
 .boxer-image {
